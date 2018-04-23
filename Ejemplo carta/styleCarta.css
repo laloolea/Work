@@ -1,0 +1,100 @@
+#divGrande{
+	/*
+	background-image:url(goku.jpg);
+	*/
+	background-repeat: no-repeat;
+	background-size:421px 211px;
+	
+	position:absolute;
+	top: 10px;
+	left:700px;
+	border:3px solid red;
+	height:200px;
+	width:421px;
+	transition: background-image 0.5s linear
+
+}
+
+#primerDiv{
+	position: absolute;
+	background-size:421px 211px;	
+	height:200px;
+	width:421px;
+	background-repeat: no-repeat;
+	background-size:421px 215px;
+	
+
+}
+#cambio{/*
+	position: absolute;
+	background-size:421px 211px;	
+	height:200px;
+	width:421px;
+	background-repeat: no-repeat;
+	transition:background-image 0.50s ease-in-out;
+	
+	 -webkit-transition: opacity 200ms linear;
+    -moz-transition: opacity 200ms linear;
+    -o-transition: opacity 200ms linear;
+    -ms-transition: opacity 200ms linear;
+    transition: opacity 200ms linear;
+    opacity: 0;
+    */
+    background-size:421px 211px;	
+    display: inline-block;
+    height:200px;
+	width:421px;
+
+    background-image:-webkit-linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7));
+    background-image: -moz-linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7));
+    background-image: -o-linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7));
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7));
+
+    -webkit-transition: opacity 200ms linear;
+    -moz-transition: opacity 200ms linear;
+    -o-transition: opacity 200ms linear;
+    -ms-transition: opacity 200ms linear;
+    transition: opacity 200ms linear;
+
+}
+
+
+#cambio:hover{/*
+	-webkit-transition: opacity 200ms linear;
+    -moz-transition: opacity 200ms linear;
+    -o-transition: opacity 200ms linear;
+    -ms-transition: opacity 200ms linear;
+    transition: opacity 200ms linear;
+    opacity: 1;
+    */
+     -webkit-transition: opacity 200ms linear;
+    -moz-transition: opacity 200ms linear;
+    -o-transition: opacity 200ms linear;
+    -ms-transition: opacity 200ms linear;
+    transition: opacity 200ms linear;
+    opacity: 0.0001;
+     
+	/*
+	background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),url(goku.jpg);
+	
+
+   -webkit-transition: background-image 250ms linear;
+    -moz-transition: background-image 250ms linear;
+    -o-transition: background-image 250ms linear;
+    -ms-transition: background-image 250ms linear;
+    transition: background-image 250ms linear;
+
+	background-image:-webkit-linear-gradient(rgba(0,0,0,0.2), rgba(0,0,0,0.2)), url(goku.jpg);
+    background-image:   -moz-linear-gradient(rgba(0,0,0,0.2), rgba(0,0,0,0.2)), url(goku.jpg);
+    background-image:     -o-linear-gradient(rgba(0,0,0,0.2), rgba(0,0,0,0.2)), url(goku.jpg);
+    background-image:        linear-gradient(rgba(0,0,0,0.2), rgba(0,0,0,0.2)), url(goku.jpg);
+
+*/
+}
+
+
+
+
+
+
+
