@@ -16387,6 +16387,8 @@ span.CodeMirror-selectedtext { background: none; }
   position:absolute;
   left: 310px; 
   top: 990px;
+  
+
    
 }
 
@@ -16394,7 +16396,6 @@ span.CodeMirror-selectedtext { background: none; }
 .cambio{
     position:relative;
 
-    
     height:270px;
     width:290px;
     bottom:30px;
@@ -16412,15 +16413,17 @@ span.CodeMirror-selectedtext { background: none; }
     transition: opacity 200ms linear;
 
 }
-.cambio:hover{
 
-  -webkit-transition: opacity 200ms linear;
+.opaco:hover > .card > .cambio{
+
+    -webkit-transition: opacity 200ms linear;
     -moz-transition: opacity 200ms linear;
     -o-transition: opacity 200ms linear;
     -ms-transition: opacity 200ms linear;
     transition: opacity 200ms linear;
     opacity: 0.2;
-      
+
+
 }
 
 
